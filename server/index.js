@@ -10,7 +10,7 @@ const userRouter = require('./routes/user');
 //init
 const PORT = 3000;
 const app = express();
-const DB = 'mongodb+srv://paprikaparty33:Futroyesiivan18@cluster0.rc3d7pd.mongodb.net/?retryWrites=true&w=majority';
+const DB = 'your link';
 //middleware
 app.use(express.json()); 
 app.use(authRouter);
@@ -45,4 +45,4 @@ app.listen(PORT, "0.0.0.0", () => {
 
 // app.listen(PORT, "0.0.0.0", ...) запускает сервер на указанном порту, прослушивая входящие запросы.
 // При успешном запуске сервера выводится сообщение "connected" вместе с портом в консоль.
-// Таким образом, код настраивает Express-сервер, подключает маршрутизатор authRouter, который обрабатывает запросы на маршрут /user и отправляет ответ в виде JSON-сообщения "riivan". После этого сервер запускается и начинает прослушивать входящие запросы на указанном порту.
+// Таким образом, код настраивает Express-сервер, подключает маршрутизатор authRouter, который обрабатывает запросы на маршрут /user и отправляет ответ в виде JSON-сообщения. После этого сервер запускается и начинает прослушивать входящие запросы на указанном порту.

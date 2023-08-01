@@ -7,6 +7,7 @@ Backend: 'server' folder
 - Search
 - Sorting
 - Registration / Login
+  
 https://github.com/paprikaparty33/E-Commerce/assets/88854349/ddab2114-35d1-4d9e-b8fb-236e6b5c05ee
 
 ## Admin Side

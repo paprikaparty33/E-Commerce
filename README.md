@@ -1,5 +1,6 @@
 ## Flutter K-pop Shop with JavaScript backend using MongoDB
 
+Packages:  http, provider,shared_preferences, dotted_border, carousel_slider, file_picker, cloudinary_public, animated_text_kit, anim_search_bar, flutter_staggered_grid_view
 Backend: 'server' folder
 
 ## User Side

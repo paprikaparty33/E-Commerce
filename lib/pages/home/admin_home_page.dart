@@ -44,7 +44,7 @@ class _AdminHomePageState extends State<AdminHomePage> {
               icon: Icon(Icons.home_outlined), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.shopping_cart_outlined), label: 'Cart'),
+              icon: Icon(Icons.add), label: 'Add product'),
           BottomNavigationBarItem(
               icon: Icon(Icons.account_circle_outlined), label: 'User'),
         ],

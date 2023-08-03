@@ -47,8 +47,8 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.blue,
       ),
       onGenerateRoute: (settings) => generateRoute(settings),
-      home: Provider.of<UserProvider>(context).user.token.isNotEmpty
-      ? UserHomePage() : SignInPage()
+      home: Provider.of<UserProvider>(context).user.token.isNotEmpty  ? Provider.of<UserProvider>(context).user.type == 'user'
+      ? UserHomePage() : AdminHomePage() : SignInPage()
     );
   }
 }

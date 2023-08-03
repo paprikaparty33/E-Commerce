@@ -19,6 +19,7 @@ https://github.com/paprikaparty33/E-Commerce/assets/88854349/ddab2114-35d1-4d9e-
 - Search
 - Sorting
 - Login
+
 https://github.com/paprikaparty33/E-Commerce/assets/88854349/9df522ed-3d70-4d68-a041-55082de5cb8f
 
 

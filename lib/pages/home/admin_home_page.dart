@@ -18,7 +18,7 @@ class _AdminHomePageState extends State<AdminHomePage> {
   List pages = [
     MainHomePage(),
     SearchPage(searchQuery: ''),
-    CartPage(),
+   AddProductScreen(),
     AccountPage(),
   ];
 
